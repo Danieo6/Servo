@@ -29,9 +29,9 @@
 #ifndef SERVO_H
 #define SERVO_H
 
-#include "pico/stdlib.h"
-#include "hardware/pwm.h"
-#include "hardware/clocks.h"
+// #include <pico/stdlib.h>
+#include <hardware/pwm.h>
+#include <hardware/clocks.h>
 
 #define VERSION 1 // Library version
 #define MIN_PULSE_WIDTH 544 // Min. pulse width sent to a servo
